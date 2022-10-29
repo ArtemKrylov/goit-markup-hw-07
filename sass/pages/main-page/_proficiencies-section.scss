@@ -1,18 +1,14 @@
 .proficiencies {
-  padding-top: 0;
-}
-
-.proficiencies__cards {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.proficiencies__card {
+.proficiencies__item {
   position: relative;
 }
 
-.proficiencies__card-text {
+.proficiencies__text {
   position: absolute;
   bottom: 0;
   left: 0;

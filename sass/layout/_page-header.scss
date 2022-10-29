@@ -17,41 +17,6 @@
   margin-right: 93px;
 }
 
-.cite-logo__accent {
+.logo__accent {
   color: var(--accent-color);
-}
-
-.header__contacts {
-  display: flex;
-}
-
-.header__contact-link {
-  display: flex;
-  align-items: center;
-
-  color: var(--text-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: var(--accent-color);
-  }
-}
-
-.header__contact-listitem:not(:last-of-type) {
-  margin-right: 50px;
-}
-
-.icon--envelope {
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-}
-
-.icon--smartphone {
-  margin-right: 10px;
-  width: 10px;
-  height: 16px;
 }

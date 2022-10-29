@@ -1,13 +1,13 @@
-.peculiarities__cards {
+.peculiarities {
   display: flex;
   gap: 30px;
 }
 
-.peculiarities__card {
+.peculiarities__item {
   flex-grow: 1;
 }
 
-.peculiarities__card-thumb {
+.peculiarities__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,12 +21,12 @@
   background-color: var(--peculiarities-icon-background-color);
 }
 
-.peculiarities__card-icon {
+.peculiarities__icon {
   width: 70px;
   height: 70px;
 }
 
-.peculiarities__card-title {
+.peculiarities__title {
   margin-bottom: 10px;
 
   font-weight: 700;
